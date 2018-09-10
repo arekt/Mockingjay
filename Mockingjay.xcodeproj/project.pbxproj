@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2705946B1C4FA7A6002A3AA9 /* MockingjayXCTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705946A1C4FA7A6002A3AA9 /* MockingjayXCTestTests.swift */; };
-		2715FACF1D8C81AB00A89DF7 /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2715FAC91D8C818C00A89DF7 /* URITemplate.framework */; };
 		274367921AA27A7C0030C97B /* Mockingjay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367911AA27A7C0030C97B /* Mockingjay.swift */; };
 		274367941AA27AAD0030C97B /* MockingjayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367931AA27AAD0030C97B /* MockingjayProtocol.swift */; };
 		274367961AA27B170030C97B /* MockingjayProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274367951AA27B170030C97B /* MockingjayProtocolTests.swift */; };
@@ -24,37 +23,10 @@
 		444EA6091C5261DE000C3A9F /* MockingjayAsyncProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444EA6081C5261DE000C3A9F /* MockingjayAsyncProtocolTests.swift */; };
 		444EA60C1C52666D000C3A9F /* TestAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 444EA60B1C52666D000C3A9F /* TestAudio.m4a */; };
 		A1E3C5701AA4EA130069C998 /* XCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743679B1AA28D4D0030C97B /* XCTest.swift */; };
+		E65C35AE21466F1900A2A67D /* URITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65C35AD21466F1900A2A67D /* URITemplate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2715FAC41D8C818C00A89DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2715FABD1D8C818C00A89DF7 /* URITemplate.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "_____Product_Spectre";
-			remoteInfo = Spectre;
-		};
-		2715FAC61D8C818C00A89DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2715FABD1D8C818C00A89DF7 /* URITemplate.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "_____Product_PathKit";
-			remoteInfo = PathKit;
-		};
-		2715FAC81D8C818C00A89DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2715FABD1D8C818C00A89DF7 /* URITemplate.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "_____Product_URITemplate";
-			remoteInfo = URITemplate;
-		};
-		2715FACA1D8C818C00A89DF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2715FABD1D8C818C00A89DF7 /* URITemplate.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "_____Product_URITemplateTests";
-			remoteInfo = URITemplateTests;
-		};
 		2746CDCC1A702F7800719B66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2746CDB61A702F7800719B66 /* Project object */;
@@ -66,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		2705946A1C4FA7A6002A3AA9 /* MockingjayXCTestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockingjayXCTestTests.swift; sourceTree = "<group>"; };
-		2715FABD1D8C818C00A89DF7 /* URITemplate.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = URITemplate.xcodeproj; path = URITemplate/URITemplate.xcodeproj; sourceTree = "<group>"; };
 		274367911AA27A7C0030C97B /* Mockingjay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mockingjay.swift; sourceTree = "<group>"; };
 		274367931AA27AAD0030C97B /* MockingjayProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockingjayProtocol.swift; sourceTree = "<group>"; };
 		274367951AA27B170030C97B /* MockingjayProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockingjayProtocolTests.swift; sourceTree = "<group>"; };
@@ -88,6 +59,7 @@
 		27703A621CE2560600194732 /* MockingjayURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockingjayURLSessionConfiguration.m; sourceTree = "<group>"; };
 		444EA6081C5261DE000C3A9F /* MockingjayAsyncProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockingjayAsyncProtocolTests.swift; sourceTree = "<group>"; };
 		444EA60B1C52666D000C3A9F /* TestAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TestAudio.m4a; sourceTree = "<group>"; };
+		E65C35AD21466F1900A2A67D /* URITemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URITemplate.framework; path = Carthage/Build/iOS/URITemplate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2715FACF1D8C81AB00A89DF7 /* URITemplate.framework in Frameworks */,
+				E65C35AE21466F1900A2A67D /* URITemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,25 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2715FABE1D8C818C00A89DF7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2715FACB1D8C818C00A89DF7 /* URITemplateTests.xctest */,
-				2715FAC91D8C818C00A89DF7 /* URITemplate.framework */,
-				2715FAC71D8C818C00A89DF7 /* PathKit.framework */,
-				2715FAC51D8C818C00A89DF7 /* Spectre.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		2746CDB51A702F7800719B66 = {
 			isa = PBXGroup;
 			children = (
-				2715FABD1D8C818C00A89DF7 /* URITemplate.xcodeproj */,
 				2746CDDB1A702FC100719B66 /* Configurations */,
 				2746CDC11A702F7800719B66 /* Mockingjay */,
 				2746CDCE1A702F7800719B66 /* MockingjayTests */,
 				2746CDC01A702F7800719B66 /* Products */,
+				E65C35AD21466F1900A2A67D /* URITemplate.framework */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -291,12 +252,6 @@
 			mainGroup = 2746CDB51A702F7800719B66;
 			productRefGroup = 2746CDC01A702F7800719B66 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 2715FABE1D8C818C00A89DF7 /* Products */;
-					ProjectRef = 2715FABD1D8C818C00A89DF7 /* URITemplate.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2746CDBE1A702F7800719B66 /* Mockingjay */,
@@ -304,37 +259,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		2715FAC51D8C818C00A89DF7 /* Spectre.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Spectre.framework;
-			remoteRef = 2715FAC41D8C818C00A89DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2715FAC71D8C818C00A89DF7 /* PathKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PathKit.framework;
-			remoteRef = 2715FAC61D8C818C00A89DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2715FAC91D8C818C00A89DF7 /* URITemplate.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = URITemplate.framework;
-			remoteRef = 2715FAC81D8C818C00A89DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2715FACB1D8C818C00A89DF7 /* URITemplateTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = URITemplateTests.xctest;
-			remoteRef = 2715FACA1D8C818C00A89DF7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2746CDBD1A702F7800719B66 /* Resources */ = {
@@ -440,7 +364,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -488,7 +412,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -510,6 +434,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Sources/Mockingjay/Info.plist;
@@ -540,6 +465,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Sources/Mockingjay/Info.plist;
